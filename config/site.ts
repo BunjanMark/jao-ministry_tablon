@@ -9,61 +9,41 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Docs",
-      href: "/docs",
+      label: "Ministries",
+      href: "/ministries",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
+      label: "Sermons",
+      href: "/sermons",
     },
     {
-      label: "Blog",
-      href: "/blog",
+      label: "Get Involved",
+      href: "/getinvolved",
     },
     {
-      label: "About",
-      href: "/about",
+      label: "About Us",
+      href: "/about-us",
     },
   ],
   navMenuItems: [
     {
-      label: "Profile",
-      href: "/profile",
+      label: "Home",
+      href: "/",
     },
     {
-      label: "Dashboard",
-      href: "/dashboard",
+      label: "Test",
+      href: "/blog",
     },
     {
-      label: "Projects",
-      href: "/projects",
-    },
-    {
-      label: "Team",
-      href: "/team",
-    },
-    {
-      label: "Calendar",
-      href: "/calendar",
-    },
-    {
-      label: "Settings",
-      href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
+      label: "About Us",
+      href: "/about-us",
     },
   ],
   links: {
-    github: "https://github.com/heroui-inc/heroui",
+    github: "https://github.com/BunjanMark/jao-ministry_tablon",
     twitter: "https://twitter.com/hero_ui",
-    docs: "https://heroui.com",
+    docs: "https://www.facebook.com/Notsosho/",
     discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    sponsor: "https://www.facebook.com/profile.php?id=100090955667788&sk=about",
   },
 };

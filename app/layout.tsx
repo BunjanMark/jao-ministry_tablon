@@ -38,7 +38,7 @@ export default function RootLayout({
       <body
         className={clsx(
           "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable,
+          fontSans.variable
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
@@ -47,16 +47,41 @@ export default function RootLayout({
             <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
               {children}
             </main>
-            <footer className="w-full flex items-center justify-center py-3">
-              <Link
-                isExternal
-                className="flex items-center gap-1 text-current"
-                href="https://heroui.com?utm_source=next-app-template"
-                title="heroui.com homepage"
-              >
-                <span className="text-default-600">Powered by</span>
-                <p className="text-primary">HeroUI</p>
-              </Link>
+            (
+            <footer
+              className="w-full flex flex-col items-center justify-center py-8"
+              style={{ backgroundColor: "#93c3f3" }}
+            >
+              {/* Contact Section */}
+              <div className="text-center mb-4">
+                <h2 className="text-xl font-semibold mb-2">Contact Us</h2>
+                <p className="text-lg mb-4">
+                  Feel free to reach out for any inquiries or partnerships.
+                </p>
+                <a
+                  href="mailto:jaomtablon@gmail.com"
+                  className="bg-blue-500 text-white py-2 px-6 rounded-full text-lg hover:bg-blue-400 transition duration-300"
+                >
+                  Email Us
+                </a>
+              </div>
+
+              {/* Footer Copyright and Powered By Section */}
+              <div className="text-center mb-4">
+                <p>&copy; 2025 JAO-Ministry Tablon. All Rights Reserved.</p>
+              </div>
+
+              <div className="text-center flex items-center gap-1">
+                <span className="text-gray-700">Powered by</span>
+                <Link
+                  isExternal
+                  className="text-blue-600"
+                  href="https://www.facebook.com/Notsosho/"
+                  title="MarkVincentBunjan FBpage"
+                >
+                  MarkVincentBunjan
+                </Link>
+              </div>
             </footer>
           </div>
         </Providers>
