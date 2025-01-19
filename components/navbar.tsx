@@ -102,7 +102,7 @@ export const Navbar = () => {
         className="hidden sm:flex basis-1/5 sm:basis-full"
         justify="end"
       >
-        <NavbarItem className="hidden lg:flex gap-2">
+        <NavbarItem className="hidden md:flex gap-2">
           {/* <Link isExternal aria-label="Twitter" href={siteConfig.links.twitter}>
             <TwitterIcon className="text-default-500" />
           </Link>
@@ -115,7 +115,7 @@ export const Navbar = () => {
           <ThemeSwitch />
         </NavbarItem>
         <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
-        <NavbarItem className="hidden lg:flex">
+        <NavbarItem className="hidden md:flex">
           <Button
             isExternal
             as={Link}
@@ -130,7 +130,7 @@ export const Navbar = () => {
       </NavbarContent>
 
       {/* with navbarmenu toggle */}
-      <NavbarContent className="lg:hidden basis-1 pl-4" justify="end">
+      <NavbarContent className="md:hidden basis-1 pl-4" justify="end">
         <Link isExternal aria-label="Github" href={siteConfig.links.github}>
           <GithubIcon className="text-default-500" />
         </Link>
